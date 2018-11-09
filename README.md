@@ -6,11 +6,32 @@ Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled
 * E-mail: yang.3455@osu.edu
 
 The Ohio State Unviversity
+
 Control and Intelligent Transportation Research (CITR) Lab
+
 Department of Electrical and Computer Engineering
+
 Center for Automotive Research (CAR)
 
+## Overview
+
+TODO: INSERT TWO VIDEOS HERE ...
+
 ## Experiment
+
+### Scenarios: [need to modify this part]
+- 4 x Unidirectional Pedestrian Crossing 
+- 4 x Bidirectional Pedestrian Crossing (5v5)
+- 4 x Bidirectional Pedestrian Crossing (3v7)
+- 4 x Vehicle-Crowd Front Interaction
+- 4 x Veihcle-Crowd Back Interaction
+- 4 x Unidirectional Crossing with Still Vehicle
+- 8 x Unidirectional Crossing with Vehicle Interaction
+- 10 x Bidirectional Crossing with Vehicle Interaction
+
+### Statistics
+- 400 pedestrian trajectoreis in total
+- 42 video clips, with each clip of about 20 seconds
 
 ## Dataset Description
 
