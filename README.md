@@ -92,8 +92,7 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 - Note that for vehicle trajectory, only middle point is filtered. 
 
 ## From Pixels to World Coordinate
-For each experiment, the ratio of number of pixels and meters in world coordinate can be estimated by the distance between two tracked points on top of the vehicle. Specifically, 
-
+For each experiment, if you calculate the average number of pixels between two tracked markers on top of the vehicle, then compare it with the actual distance between them, you can find the ratio of image coordinate to the world coordinate. The actual distance is manually measured, as shown in the following figure: 
 <img src="vehicle_markers.png" width="500">
 
 ## Errors
