@@ -20,11 +20,12 @@ TODO: INSERT TWO VIDEOS HERE ...
 ## Experiment
 
 ### Scenarios: [need to modify this part]
-- 4 x Unidirectional Pedestrian Crossing 
+- 4 x Veihcle-Crowd Back Interaction
 - 4 x Bidirectional Pedestrian Crossing (5v5)
 - 4 x Bidirectional Pedestrian Crossing (3v7)
+
+- 4 x Unidirectional Pedestrian Crossing
 - 4 x Vehicle-Crowd Front Interaction
-- 4 x Veihcle-Crowd Back Interaction
 - 4 x Unidirectional Crossing with Still Vehicle
 - 8 x Unidirectional Crossing with Vehicle Interaction
 - 10 x Bidirectional Crossing with Vehicle Interaction
