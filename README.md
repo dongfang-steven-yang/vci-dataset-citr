@@ -94,7 +94,7 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 
 ## From Pixels to World Coordinate
 For each experiment, if you calculate the average number of pixels between two tracked markers on top of the vehicle, then compare it with the actual distance between them, you can find the ratio of image coordinate to the world coordinate. The actual distance is manually measured, as shown in the following figure: 
-<img src="vehicle_markers.png" width="500">
+<img src="marker_distance.PNG" width="500">
 
 ## Errors
 - If you find any errors, please contact the author.
