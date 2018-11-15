@@ -67,7 +67,7 @@ vy_est: y velocity estimated by Kalman filter
                              |
                             0.6m
                              |
-front bumper -- 1.2m -- middle point -- 2m -- rear bumper
+front bumper -- 1.2m -- middle point -- 1m -- rear bumper
                              |
                             0.6m
                              |
