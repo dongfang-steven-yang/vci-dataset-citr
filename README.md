@@ -63,15 +63,15 @@ vy_est: y velocity estimated by Kalman filter
 [maybe delete this part, becasue each experiment might have different values]
 
 ```
-                              right side                             
-                                  |
-                               27 pixels
-                                  |
-front bumper -- 68 pixels -- middle point -- 52 pixels -- rear bumper
-                                  |
-                               27 pixels
-                                  |
-                              left side 
+                         ight side                             
+                             |
+                            0.6m
+                             |
+front bumper -- 1.2m -- middle point -- 2m -- rear bumper
+                             |
+                            0.6m
+                             |
+                         left side 
 ```
 
 - In the ".csv" file, the first row is the header. In each of the following rows, entries from left to right represnet:
@@ -92,8 +92,9 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 
 - Note that for vehicle trajectory, only middle point is filtered. 
 
-## From Pixels to World Coordinate
-For each experiment, if you calculate the average number of pixels between two tracked markers on top of the vehicle, then compare it with the actual distance between them, you can find the ratio of image coordinate to the world coordinate. The actual distance is manually measured, as shown in the following figure: 
+## From Meters to Pixels
+All trajectoires have already been converted from pixels in frames into meters. To recover trajectories in pixels, you can use the ratio of pixels to meters stored in "ratio_pixel2meter.txt".
+
 <img src="marker_distance.PNG" width="500">
 
 ## Errors
