@@ -2,7 +2,7 @@
 Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled Experiment
 
 * Author: Dongfang Yang
-* Last updated on 11/09/2018
+* Last updated on 11/26/2018
 * E-mail: yang.3455@osu.edu
 
 The Ohio State Unviversity
@@ -96,8 +96,10 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 
 ## From Meters to Pixels
 All trajectoires have already been converted from pixels in frames into meters. To recover trajectories in pixels, you can use the ratio of pixels to meters stored in "ratio_pixel2meter.txt" (if the scenario contains vehicle) or "ratio_pixel2meter_ground.txt" (if the scenario only contains pedestrians).
+
 <img src="marker_distance.PNG" width="500">
-<img src="ground_distance.png" width="500">
+
+<img src="ground_distance.png" width="800">
 
 ## Errors
 - If you find any errors, please contact the author.
