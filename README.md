@@ -95,9 +95,9 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 - Note that for vehicle trajectory, only middle point is filtered. 
 
 ## From Meters to Pixels
-All trajectoires have already been converted from pixels in frames into meters. To recover trajectories in pixels, you can use the ratio of pixels to meters stored in "ratio_pixel2meter.txt".
-
+All trajectoires have already been converted from pixels in frames into meters. To recover trajectories in pixels, you can use the ratio of pixels to meters stored in "ratio_pixel2meter.txt" (if the scenario contains vehicle) or "ratio_pixel2meter_ground.txt" (if the scenario only contains pedestrians).
 <img src="marker_distance.PNG" width="500">
+<img src="ground_distance.png" width="500">
 
 ## Errors
 - If you find any errors, please contact the author.
