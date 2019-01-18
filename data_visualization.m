@@ -52,6 +52,7 @@ video = VideoReader(video_filename);
 fps = video.FrameRate;
 
 if record_enable
+    mkdir('demo_videos');
     date_time = datestr(now,'yyyy-mm-dd-HH-MM'); 
     record = VideoWriter(['demo_videos/demo_',scenario_name,'_',date_time,'.avi']);
     record.FrameRate = fps;

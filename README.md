@@ -2,7 +2,7 @@
 Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled Experiment
 
 * Author: Dongfang Yang
-* Last updated on 11/26/2018
+* Last updated on 01/18/2019
 * E-mail: yang.3455@osu.edu
 
 The Ohio State Unviversity
@@ -19,21 +19,21 @@ TODO: INSERT TWO VIDEOS HERE ...
 
 ## Experiment
 
-### Scenarios: [need to modify this part]
-- 4 x Veihcle-Crowd Back Interaction
-- 4 x Bidirectional Pedestrian Crossing (5v5)
-- 4 x Bidirectional Pedestrian Crossing (3v7)
+### Scenarios: 
 
-*Note: the following scenarios will be available soon..*
+Pedestrian only scenarios:
 - 4 x Unidirectional Pedestrian Crossing
-- 4 x Vehicle-Crowd Front Interaction
-- 4 x Unidirectional Crossing with Still Vehicle
-- 8 x Unidirectional Crossing with Vehicle Interaction
+- 8 x Bidirectional Pedestrian Crossing (4 x 5v5, 4 x 3v7)
+Lateral interaction scenarios:
+- 8 x Unidirectional Crossing with Vehicle Interaction (4 x normal driving, 4 x yeilding)
 - 10 x Bidirectional Crossing with Vehicle Interaction
+Front/back interaction scenarios:
+- 4 x Vehicle-Crowd Front Interaction
+- 4 x Veihcle-Crowd Back Interaction
 
 ### Statistics
 - 400 pedestrian trajectoreis in total
-- 42 video clips, with each clip of about 20 seconds
+- 38 video clips, with each clip of about 20 seconds
 
 ## Dataset Description
 
