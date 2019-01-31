@@ -1,7 +1,6 @@
-# CITR Vehicle-Crowd Interaction Dataset
+# Vehicle-Crowd Intraction (VCI) - CITR Dataset
 Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled Experiment
 
-* Author: Dongfang Yang
 * Last updated on 01/18/2019
 * E-mail: yang.3455@osu.edu
 
@@ -15,7 +14,12 @@ Center for Automotive Research (CAR)
 
 ## Overview
 
-TODO: INSERT TWO VIDEOS HERE ...
+The controlled experiments were conducted in a parking lot near the facility of Control and Intelligent Transportation Research (CITR) Lab at The Ohio State University (OSU). A DJI Phamton 3 SE Drone with a down-facing camera with on a gimbal system was used as the recording equipment. Participants are members of CITR Lab at OSU. During the experiments, they were instructed only to walk from one small area (starting points) to another small area (destinations). The employed vehicle was an EZ-GO Golf Cart. 3 markers were put on top of the vehicle to help vehicle motion tracking, of which the vehicle position is calculated by geometry. 
+
+[![CITR Dataset Demo](http://img.youtube.com/vi/_s4qQgscuDw/0.jpg)](https://www.youtube.com/watch?v=_s4qQgscuDw "CITR Dataset Demo")
+
+Another pedestrian trajectory dataset, DUT dataset, is also available at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
+
 
 ## Experiment
 
