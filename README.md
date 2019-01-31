@@ -36,7 +36,7 @@ Front/back interaction scenarios:
 - 4 x Veihcle-Crowd Back Interaction
 
 ### Statistics
-- 400 pedestrian trajectoreis in total
+- 340 pedestrian trajectoreis in total
 - 38 video clips, with each clip of about 20 seconds
 
 ## Dataset Description
