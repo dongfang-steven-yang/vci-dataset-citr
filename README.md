@@ -105,6 +105,10 @@ All trajectoires have already been converted from pixels in frames into meters. 
 
 <img src="ground_distance.png" width="800">
 
+## Linked Paper
+
+The correspoding paper of the dataset was submitted to the 30th IEEE Intelligent Vehicles Symposium. 
+
 ## Errors
 - If you find any errors, please contact the author.
 
