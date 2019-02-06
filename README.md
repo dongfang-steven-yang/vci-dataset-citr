@@ -109,9 +109,7 @@ All trajectoires have already been converted from pixels in frames into meters. 
 
 The correspoding paper of the dataset was submitted to the 30th IEEE Intelligent Vehicles Symposium. 
 
-Title: Top-view Trajectories: A Pedestrian Dataset of Vehicle-Crowd Interaction from Controlled Experiments and Crowded Campus
-
-Authors: Dongfang Yang, Linhui Li, Keith Redmill, and Umit Ozguner
+arXiv preprint: [Top-view Trajectories: A Pedestrian Dataset of Vehicle-Crowd Interaction from Controlled Experiments and Crowded Campus](https://arxiv.org/abs/1902.00487)
 
 ## Errors
 - If you find any errors, please contact the author.
