@@ -1,7 +1,7 @@
 # Vehicle-Crowd Intraction (VCI) - CITR Dataset
 Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled Experiment
 
-* Last updated on 01/18/2019
+* Last updated on 02/14/2019
 * E-mail: yang.3455@osu.edu
 
 The Ohio State Unviversity
@@ -20,6 +20,8 @@ The controlled experiments were conducted in a parking lot near the facility of 
 
 Another pedestrian trajectory dataset, DUT dataset, is also available at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
 
+## Download Stabilized Raw Videos
+The stabilized raw videos of CITR dataset can be downloaded at [this Google Drive link](https://drive.google.com/file/d/1YjLlbUFj_TEgm0hyQdc5ROrORzP8z4YP/view?usp=sharing).
 
 ## Experiment
 
