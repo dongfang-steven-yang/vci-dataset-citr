@@ -1,24 +1,27 @@
 # Vehicle-Crowd Intraction (VCI) - CITR Dataset
-Pedestrians and Vehicle Trajectories for Vehicle-Crowd Interaction in Controlled Experiment
+Top-view trajectory data of pedestrians in groups under vehicle influence in controlled experiments
 
-* Last updated on 02/14/2019
+* Last updated on 03/07/2019
 * E-mail: yang.3455@osu.edu
 
 The Ohio State Unviversity
+* Control and Intelligent Transportation Research (CITR) Lab
+* Department of Electrical and Computer Engineering
+* Center for Automotive Research (CAR)
 
-Control and Intelligent Transportation Research (CITR) Lab
+## Note
 
-Department of Electrical and Computer Engineering
-
-Center for Automotive Research (CAR)
+A sister dataset of pedestrian trajectories, DUT dataset, which consists of everyday scenarios in university campus, can be accessed at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
 
 ## Overview
 
-The controlled experiments were conducted in a parking lot near the facility of Control and Intelligent Transportation Research (CITR) Lab at The Ohio State University (OSU). A DJI Phamton 3 SE Drone with a down-facing camera with on a gimbal system was used as the recording equipment. Participants are members of CITR Lab at OSU. During the experiments, they were instructed only to walk from one small area (starting points) to another small area (destinations). The employed vehicle was an EZ-GO Golf Cart. 3 markers were put on top of the vehicle to help vehicle motion tracking, of which the vehicle position is calculated by geometry. 
+The CITR dataset was collected in the controlled experiments that were conducted in a parking lot near the facility of Control and Intelligent Transportation Research (CITR) Lab at The Ohio State University (OSU). The controlled experiments consist of a series of fundamental vehicle-crowd interactions in the hope of analyzing interactive pedestrian motion under the vehicle influence. A DJI Phamton 3 SE Drone with a down-facing camera on a gimbal system was used as the recording equipment. Participants are members of CITR Lab at OSU. During the experiments, they were instructed to walk from one small area (starting points) to another small area (destinations). The employed vehicle was an EZ-GO Golf Cart mannualy driven by a participant. 3 markers were put on top of the vehicle to help vehicle motion tracking, of which the vehicle center position is calculated by geometry. 
 
+The configuration of the controlled experimentgroup pedestrians is shown in the following figure, in which green color indicates vehicle motion, blue color indicates pedestrians' motion.
+<img src="experiment_config.png" width="600">
+
+A video clip with both the pedestrains and the vehicle labeled is shown below:
 [![CITR Dataset Demo](http://img.youtube.com/vi/_s4qQgscuDw/0.jpg)](https://www.youtube.com/watch?v=_s4qQgscuDw "CITR Dataset Demo")
-
-Another pedestrian trajectory dataset, DUT dataset, is also available at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
 
 ## Download Stabilized Raw Videos
 The stabilized raw videos of CITR dataset can be downloaded at [this Google Drive link](https://drive.google.com/file/d/1YjLlbUFj_TEgm0hyQdc5ROrORzP8z4YP/view?usp=sharing).
@@ -27,15 +30,8 @@ The stabilized raw videos of CITR dataset can be downloaded at [this Google Driv
 
 ### Scenarios: 
 
-Pedestrian only scenarios:
-- 4 x Unidirectional Pedestrian Crossing
-- 8 x Bidirectional Pedestrian Crossing (4 x 5v5, 4 x 3v7)
-Lateral interaction scenarios:
-- 8 x Unidirectional Crossing with Vehicle Interaction (4 x normal driving, 4 x yeilding)
-- 10 x Bidirectional Crossing with Vehicle Interaction
-Front/back interaction scenarios:
-- 4 x Vehicle-Crowd Front Interaction
-- 4 x Veihcle-Crowd Back Interaction
+There 6 diffrerent sceanrios in the controlled experiments desigend for the purpose of detailed camparison and analysis. They are shown below:
+<img src="scenarios.png" width="600">
 
 ### Statistics
 - 340 pedestrian trajectoreis in total
@@ -102,7 +98,7 @@ vy_mid_est: y velocity of the middle point estimated by Kalman filter
 ## From Meters to Pixels
 All trajectoires have already been converted from pixels in frames into meters. To recover trajectories in pixels, you can use the ratio of pixels to meters stored in "ratio_pixel2meter.txt" (if the scenario contains vehicle) or "ratio_pixel2meter_ground.txt" (if the scenario only contains pedestrians).
 
-<img src="marker_distance.PNG" width="500">
+<img src="markers_distance.png" width="500">
 
 <img src="ground_distance.png" width="800">
 
@@ -111,6 +107,8 @@ All trajectoires have already been converted from pixels in frames into meters. 
 The correspoding paper of the dataset was submitted to the 30th IEEE Intelligent Vehicles Symposium. 
 
 arXiv preprint: [Top-view Trajectories: A Pedestrian Dataset of Vehicle-Crowd Interaction from Controlled Experiments and Crowded Campus](https://arxiv.org/abs/1902.00487)
+
+If you find this useful, please cite the paper above. :)
 
 ## Errors
 - If you find any errors, please contact the author.
