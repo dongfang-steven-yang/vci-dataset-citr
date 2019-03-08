@@ -67,8 +67,7 @@ vy_est: y velocity estimated by Kalman filter
 
 ### Vehicles
 - Inside a particular sceanrio, the trajectory of each vehicle is stored in "v*.csv" file. Here "*" stands for the serial number of the vehicle. Since usually there is only one vehicle, you will only see "v1.csv". If there is no vehicle in the scenario, you won't see any file starting with "v".
-- The vehicle is tracked by two markers on the vehicle top in the video: center marker and front marker. To obtain the vehicle trajectory, the middle point between these two markers is calculated. *The vehicle shape can be estimated based on the middle point by following measaure:*
-[maybe delete this part, becasue each experiment might have different values]
+- The vehicle is tracked by two markers on the vehicle top in the video: center marker and front marker. To obtain the vehicle trajectory, the middle point between these two markers is calculated. The vehicle shape can be estimated based on the middle point by following measaure:
 
 ```
                          ight side                             
