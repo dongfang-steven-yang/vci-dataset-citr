@@ -111,14 +111,6 @@ All trajectoires have already been converted from pixels in frames into meters. 
 
 <img src="ground_distance.png" width="800">
 
-## Linked Paper
-
-
-
-
-
-
-
 ## Errors
 - If you find any errors, please contact the author.
 
