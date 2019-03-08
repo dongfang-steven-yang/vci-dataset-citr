@@ -4,7 +4,7 @@ Top-view trajectory data of pedestrians in groups under vehicle influence in con
 * Last updated on 03/07/2019
 * E-mail: yang.3455@osu.edu
 
-The Ohio State Unviversity
+![](osu-logo.jpg)
 * Control and Intelligent Transportation Research (CITR) Lab
 * Department of Electrical and Computer Engineering
 * Center for Automotive Research (CAR)
@@ -13,14 +13,22 @@ The Ohio State Unviversity
 
 A sister dataset of pedestrian trajectories, DUT dataset, which consists of everyday scenarios in university campus, can be accessed at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
 
+The detailed description of both datasets can be accessed at arXiv preprint: [Top-view Trajectories: A Pedestrian Dataset of Vehicle-Crowd Interaction from Controlled Experiments and Crowded Campus](https://arxiv.org/abs/1902.00487).
+
+This paper was submitted to [The 30th IEEE Intelligent Vehicles Symposium in Paris](http://iv2019.org/). 
+
+If you find the dataset useful, please consider citing the above paper. :grinning:
+
 ## Overview
 
 The CITR dataset was collected in the controlled experiments that were conducted in a parking lot near the facility of Control and Intelligent Transportation Research (CITR) Lab at The Ohio State University (OSU). The controlled experiments consist of a series of fundamental vehicle-crowd interactions in the hope of analyzing interactive pedestrian motion under the vehicle influence. A DJI Phamton 3 SE Drone with a down-facing camera on a gimbal system was used as the recording equipment. Participants are members of CITR Lab at OSU. During the experiments, they were instructed to walk from one small area (starting points) to another small area (destinations). The employed vehicle was an EZ-GO Golf Cart mannualy driven by a participant. 3 markers were put on top of the vehicle to help vehicle motion tracking, of which the vehicle center position is calculated by geometry. 
 
 The configuration of the controlled experimentgroup pedestrians is shown in the following figure, in which green color indicates vehicle motion, blue color indicates pedestrians' motion.
+
 <img src="experiment_config.png" width="600">
 
 A video clip with both the pedestrains and the vehicle labeled is shown below:
+
 [![CITR Dataset Demo](http://img.youtube.com/vi/_s4qQgscuDw/0.jpg)](https://www.youtube.com/watch?v=_s4qQgscuDw "CITR Dataset Demo")
 
 ## Download Stabilized Raw Videos
@@ -104,11 +112,11 @@ All trajectoires have already been converted from pixels in frames into meters. 
 
 ## Linked Paper
 
-The correspoding paper of the dataset was submitted to the 30th IEEE Intelligent Vehicles Symposium. 
 
-arXiv preprint: [Top-view Trajectories: A Pedestrian Dataset of Vehicle-Crowd Interaction from Controlled Experiments and Crowded Campus](https://arxiv.org/abs/1902.00487)
 
-If you find this useful, please cite the paper above. :)
+
+
+
 
 ## Errors
 - If you find any errors, please contact the author.
