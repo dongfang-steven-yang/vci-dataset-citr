@@ -40,6 +40,7 @@ The stabilized raw videos of CITR dataset can be downloaded at [this Google Driv
 ### Scenarios: 
 
 There 6 diffrerent sceanrios in the controlled experiments desigend for the purpose of detailed camparison and analysis. They are shown below:
+
 <img src="scenarios.png" width="600">
 
 ### Statistics
