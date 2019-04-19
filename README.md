@@ -10,9 +10,9 @@ Top-view trajectory data of pedestrians in groups under vehicle influence in con
 * Department of Electrical and Computer Engineering
 * Center for Automotive Research (CAR)
 
-**A major update was done on Apr 19, 2019. An extended Kalman filter was applied for refining the vehicle trajectory, so that the output vehicle state contains (x, y, heading, speed), which is in accordance with a vehicle model (bicycle model).**
-
 ## Note
+
+**A major update was done on Apr 19, 2019. An extended Kalman filter was applied for refining the vehicle trajectory, so that the output vehicle state contains (x, y, heading, speed), which is in accordance with a vehicle model (bicycle model).**
 
 A sister dataset of pedestrian trajectories, DUT dataset, which consists of everyday scenarios in university campus, can be accessed at [here](https://github.com/dongfang-steven-yang/vci-dataset-dut).
 
@@ -43,8 +43,8 @@ A video clip with both the pedestrains and the vehicle labeled is shown below:
 
 ## Download Stabilized Raw Videos
 The stabilized raw videos of CITR dataset can be downloaded at following links:
-[Google Drive Download](https://drive.google.com/open?id=1WSnLO0njzOReQmqAcSWwnvthVydd7BCu).
-[Baidu Yun Download](https://pan.baidu.com/s/1HYc_VEBn95BYD2yufWxcNw). Code: h5kj
+- [Google Drive Download](https://drive.google.com/open?id=1WSnLO0njzOReQmqAcSWwnvthVydd7BCu).
+- [Baidu Yun Download](https://pan.baidu.com/s/1HYc_VEBn95BYD2yufWxcNw). Code: h5kj
 
 
 ## Experiment
