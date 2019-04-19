@@ -32,13 +32,15 @@ Below is a figure showing the configuration of the controlled experiment area (a
 
 A video clip with both the pedestrains and the vehicle labeled is shown below:
 
+[![CITR Dataset Demo](http://img.youtube.com/vi/_s4qQgscuDw/0.jpg)](https://www.youtube.com/watch?v=_s4qQgscuDw "CITR Dataset Demo")
+
+Or you can download it [here](https://github.com/dongfang-steven-yang/vci-dataset-citr/raw/master/demo-citr.mp4)
+
+<!--
 <video width="700" height="400" controls>
   <source src="/demo-citr.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
-<!--
-[![CITR Dataset Demo](http://img.youtube.com/vi/_s4qQgscuDw/0.jpg)](https://www.youtube.com/watch?v=_s4qQgscuDw "CITR Dataset Demo")
 -->
 
 ## Download Stabilized Raw Videos
